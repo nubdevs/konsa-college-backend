@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "konsa-college",
+    "builds": [
+       { "src": "backend/index.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/" }
+    ]
+ }
